@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style1.css">
+    <title>Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc4DWnnuPH1VCmfAUFRWqNe8wHYuuwBeI9Xg&usqp=CAU">
+</head>
+<body>
+    <div class="con">
+        <div class="replay">
+            <button id="t4" onclick="replay()">Replay</button>
+        </div>
+        <h1 id="title">Guess-The-Number</h1>
+        <div class="secret">
+            <div class="line1"></div>
+            <div class="secretnumber">
+                <h1 id="t3">?</h1>
+            </div>
+            <div class="line2"></div>
+        </div>
+        <div class="claa">
+            <h1 id="disp">Guess-The-Number between 1 to 20</h1>
+        </div>
+        <div class="con2">
+            <div class="inputnum">
+                <input type="text" id="t1">
+                <button onclick="check()">Check</button>
+            </div>
+            <div class="congrats" id="cong">
+                <h1>Congratulations You Won</h1>
+            </div>
+            <div class="scores">
+                <div class="item1" id="t2">Start Guessing....</div>
+                <div class="score">score:<span id="score1">20</span></div>
+                <div class="highscore">Highscore:<span id="highscore">0</span></div>
+            </div>
+        </div>
+    </div>
+    <script src="scrip2.js"></script>
+</body>
+</html>
